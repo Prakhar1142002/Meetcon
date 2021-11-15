@@ -43,9 +43,9 @@ body{
 }
 .search-box{
     position: absolute;
-    left: 47%;
+    left: 46%;
     transform: translateX(-50%);
-    width: 416px;
+    width: 410px;
     height: 34px;
     background: #fafafa;
     border: 1px solid black;
@@ -107,9 +107,9 @@ body{
     overflow: hidden;
     overflow-x: auto;
 }
-.status-wrapper::-webkit-scrollbar{
+/* .status-wrapper::-webkit-scrollbar{
     display: none;
-}
+} */
 .status-card{
     flex: 0 0 auto;
     width: 80px;
@@ -233,7 +233,7 @@ body{
     background: none;
     border: none;
     outline: none;
-    /* cursor: pointer; */
+    cursor: pointer;
     text-transform: capitalize;
     color: rgb(0, 162, 255);
     font-size: 16px;
@@ -301,4 +301,8 @@ body{
     font-weight: 500px;
     margin-top: 5px;
     margin-left: 14px;
+}
+svg{
+    width: 40px;
+    height: 25px;
 }

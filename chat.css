@@ -1,0 +1,63 @@
+.below_nav{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1.3fr 3fr;
+}
+.container1{
+    background-color: red;
+    height: 1000px;
+    text-align: center;
+}
+.container2{
+    background-color: cyan;
+    height: 1000px;
+
+}
+.searchbox{
+    margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 370px;
+    height: 35px;
+    border-radius: 15px;
+}
+.input-icons{
+    margin-top: 5px;
+}
+.input-icons i {
+    position: absolute;
+    margin-top: 2.3px;
+}
+
+.input-field{
+    text-align: center;
+}
+.list_contacts{
+    cursor: pointer;
+    color: white;
+}
+.list_contacts :hover{
+    background-color: rgb(223, 179, 179);
+    color: white;
+}
+.list_contacts img{
+    width: 50px;
+    height: 50px;
+}
+.container2 h3{
+    text-align: center;
+}
+.container2 img{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+.container2 .sub_container2{
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+}
+.container2 .sub_container2 .activity{
+    /* padding: 25px; */
+}
