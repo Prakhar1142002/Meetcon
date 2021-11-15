@@ -1,0 +1,11 @@
+body{
+    background-color: darkgray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container .dp{
+    width: 370px;
+    height: 490px;
+}
